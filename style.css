@@ -2,7 +2,7 @@
   background-color: black;
   overflow: hidden;
 }
-body {
+.UpperSpace {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -32,4 +32,19 @@ p,
 .Dashboard p {
   margin: 5%;
   font-size: 30px;
+}
+.LowerSpace {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.history {
+  border: solid red;
+  display: flex;
+  width: 96%;
+  margin: 10px;
+}
+.history p {
+  margin-left: 30px;
+  margin-right: 30px;
 }
