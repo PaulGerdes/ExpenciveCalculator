@@ -1,5 +1,6 @@
 * {
   background-color: black;
+  overflow: hidden;
 }
 body {
   display: flex;
@@ -22,11 +23,13 @@ p,
 }
 
 .Dashboard {
+  margin: 10px;
+  border: solid red;
   display: flex;
   justify-content: flex-start;
-  width: 75%;
+  width: 70%;
 }
 .Dashboard p {
-  margin: 100px;
+  margin: 5%;
   font-size: 30px;
 }
