@@ -1,0 +1,32 @@
+* {
+  background-color: black;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.EingabeFenster {
+  width: 25%;
+  justify-content: flex-start;
+  margin: 10px;
+  border: solid red;
+}
+
+.EingabeFenster input,
+p,
+.Buttons {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+.Dashboard {
+  display: flex;
+  justify-content: flex-start;
+  width: 75%;
+}
+.Dashboard p {
+  margin: 100px;
+  font-size: 30px;
+}
