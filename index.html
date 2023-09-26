@@ -11,32 +11,33 @@
     <div class="UpperSpace">
       <div class="EingabeFenster">
         <p>Wie viel hast du verdient</p>
-        <input type="text" /><button class="Buttons">Speichern</button>
-        <p>Was ist deine Ausgabe</p>
-        <input type="text" /><button class="Buttons">Speichern</button>
-        <p>Wie viel ist es</p>
-        <input type="text" /><button class="Buttons">Speichern</button>
+        <input type="text" id="income" /><button onclick="setIncome()" class="Buttons">
+          Speichern
+        </button>
+        <p>Was ist deine Ausgabe?</p>
+        <input type="text" id="issuancetype" />
+        
+        <p>Wie viel ist es?</p>
+        <input type="text" id="issuancevalue" /><button onclick="setissuance()" class="Buttons">
+          Speichern
+        </button>
       </div>
       <div class="Dashboard">
         <p>Vermögen=</p>
-        <p>10</p>
+        <p id="incomeDashboard"></p>
         <p>Ausgaben=</p>
-        <p>10</p>
+        <p id="issuanceDashbaord"></p>
         <p>Billanz=</p>
-        <p>10</p>
+        <p></p>
       </div>
     </div>
     <div class="LowerSpace">
-      <div class="history">
-        <div class="Eintrag">
-          <p>5€</p>
-          <p>plus</p>
-          <button>x</button>
-        </div>
-        <div class="Eintrag">
-          <p>5€</p>
-          <p>plus</p>
-          <button>x</button>
+      <div id="history" class="history">
+<div class="Eintrag">
+  <p>€</p>
+  <p>Plus oder Minus</p>
+  <p>Grund</p>
+</div>
         </div>
       </div>
     </div>

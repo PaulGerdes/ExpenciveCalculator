@@ -55,7 +55,7 @@ p,
   display: flex;
 }
 .Eintrag p {
-  margin-right: 40%;
+  padding-right: 30%;
 }
 
 .Eintrag button {
